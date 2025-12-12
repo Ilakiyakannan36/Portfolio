@@ -462,7 +462,7 @@ with tab5:
     <div class="card">
         <h3>📚 Books Management Web Application</h3>
         <p>
-            A full-stack application developed with FastAPI as the backend REST API and Django as the frontend interface.
+            A full-stack application developed with FastAPI as the backend and Django as the frontend interface.
             Includes book listing, adding, updating, and deleting functionality.
         </p>
         <a href="https://github.com/https://github.com/Ilakiyakannan36/Books-App" target="_blank">
