@@ -229,7 +229,7 @@ with header_col1:
     """, unsafe_allow_html=True)
 
 with header_col2:
-    PROFILE_IMAGE_PATH = "D:/portfolio/profile.jpg"
+    PROFILE_IMAGE_PATH = "assets/profile.jpg"
     try:
         profile_img = Image.open(PROFILE_IMAGE_PATH)
         st.image(profile_img, width=250, use_container_width=False, output_format="PNG", caption="")
@@ -396,8 +396,8 @@ with tab4:
     with col1:
         st.markdown('<h2 class="section-header">📄 Resume Preview</h2>', unsafe_allow_html=True)
         
-        RESUME_IMAGE_PATH = "D:/portfolio/resume.jpg"
-        RESUME_PDF_PATH = "D:/portfolio/resume.pdf"
+        RESUME_IMAGE_PATH = "assets/resume.jpg"
+        RESUME_PDF_PATH = "assets/resume.pdf"
         
         try:
             resume_img = Image.open(RESUME_IMAGE_PATH)
