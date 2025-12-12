@@ -444,35 +444,29 @@ with tab4:
 
 # --- Projects Tab ---
 with tab5:
-    st.markdown('<h2 class="section-header">Projects</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 class="section-header">🛠️ Projects</h2>', unsafe_allow_html=True)
+
+    # Deepfake Detection Project
     st.markdown("""
     <div class="card">
-        <h3>Deepfake Image Forgery Detection System</h3>
-        <p>Detects fake images and videos using advanced AI models (CNN & Image Forensics).</p>
-        <a href="https://github.com/Ilakiyakannan36/Deepfake-image-detection-system" target="_blank">View on GitHub →</a>
-    </div>
-    """, unsafe_allow_html=True)
-# --- Footer ---
-st.markdown("---")
-footer_col1, footer_col2, footer_col3 = st.columns(3)
-
-with footer_col1:
-    st.markdown("""
-    <div style="text-align: center;">
-        <p style="color: #666;">📍 Villupuram, Tamil Nadu</p>
+        <h3>🔍 Deepfake Image Forgery Detection System</h3>
+        <p>Detects fake images using AI algorithms such as Convolutional Neural Networks and Image Forensics.</p>
+        <a href="https://github.com/Ilakiyakannan36/Deepfake-image-detection-system" target="_blank">
+            View on GitHub →
+        </a>
     </div>
     """, unsafe_allow_html=True)
 
-with footer_col2:
+    # Books App (FastAPI + Django)
     st.markdown("""
-    <div style="text-align: center;">
-        <p style="color: #666;">© 2025 K. ILAKIYA Portfolio</p>
-    </div>
-    """, unsafe_allow_html=True)
-
-with footer_col3:
-    st.markdown("""
-    <div style="text-align: center;">
-        <p style="color: #666;">📧 ilakiyakannan36@gmail.com</p>
+    <div class="card">
+        <h3>📚 Books Management Web Application</h3>
+        <p>
+            A full-stack application developed with FastAPI as the backend REST API and Django as the frontend interface.
+            Includes book listing, adding, updating, and deleting functionality.
+        </p>
+        <a href="https://github.com/https://github.com/Ilakiyakannan36/Books-App" target="_blank">
+            View on GitHub →
+        </a>
     </div>
     """, unsafe_allow_html=True)
